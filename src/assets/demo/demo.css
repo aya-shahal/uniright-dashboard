@@ -1,0 +1,507 @@
+.tim-row {
+  margin-bottom: 20px;
+}
+
+.tim-white-buttons {
+  background-color: #777777;
+}
+
+.typography-line {
+  padding-left: 25%;
+  margin-bottom: 35px;
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+.typography-line span {
+  bottom: 10px;
+  color: #c0c1c2;
+  display: block;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 13px;
+  left: 0;
+  position: absolute;
+  width: 260px;
+  text-transform: none;
+}
+
+.tim-row {
+  padding-top: 60px;
+}
+
+.tim-row h3 {
+  margin-top: 0;
+}
+
+.offline-doc .page-header {
+  display: flex;
+  align-items: center;
+}
+
+.offline-doc .footer {
+  position: absolute;
+  width: 100%;
+  background: transparent;
+  bottom: 0;
+  color: #fff;
+  z-index: 1;
+}
+
+#map {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.demo-iconshtml {
+  font-size: 62.5%;
+}
+
+.demo-icons body {
+  font-size: 1.6rem;
+  font-family: sans-serif;
+  color: #333333;
+  background: white;
+}
+
+.demo-icons a {
+  color: #608CEE;
+  text-decoration: none;
+}
+
+.demo-icons header {
+  text-align: center;
+  padding: 100px 0 0;
+}
+
+.demo-icons header h1 {
+  font-size: 2.8rem;
+}
+
+.demo-icons header p {
+  font-size: 1.4rem;
+  margin-top: 1em;
+}
+
+.demo-icons header a:hover {
+  text-decoration: underline;
+}
+
+.demo-icons .nc-icon {
+  font-size: 34px;
+}
+
+.demo-icons section h2 {
+  border-bottom: 1px solid #e2e2e2;
+  padding: 0 0 1em .2em;
+  margin-bottom: 1em;
+}
+
+.demo-icons ul {
+  padding-left: 0;
+}
+
+.demo-icons ul::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.demo-icons ul li {
+  width: 20%;
+  float: left;
+  padding: 16px 0;
+  text-align: center;
+  border-radius: .25em;
+  -webkit-transition: background 0.2s;
+  -moz-transition: background 0.2s;
+  transition: background 0.2s;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow: hidden;
+}
+
+.demo-icons ul li:hover {
+  background: #f4f4f4;
+}
+
+.demo-icons ul p,
+.demo-icons ul em,
+.demo-icons ul input {
+  display: inline-block;
+  font-size: 1rem;
+  color: #999999;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  white-space: nowrap;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+
+.demo-icons ul p {
+  padding: 20px 0 0;
+  font-size: 12px;
+  margin: 0;
+}
+
+.demo-icons ul p::selection,
+.demo-icons ul em::selection {
+  background: #608CEE;
+  color: #efefef;
+}
+
+.demo-icons ul em {
+  font-size: 12px;
+}
+
+.demo-icons ul em::before {
+  content: '[';
+}
+
+.demo-icons ul em::after {
+  content: ']';
+}
+
+.demo-icons ul input {
+  text-align: center;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  outline: none;
+  display: none;
+}
+
+.innerLogo{
+  margin-bottom: 3px;
+  margin-top: 8px;
+}
+
+.logo-img{
+  text-align: center;
+  align-items: center;
+}
+.loadingLogo{
+  margin-top: 200px;
+  -webkit-animation: rotating .8s linear infinite;
+  -moz-animation: rotating .8s linear infinite;
+  -ms-animation: rotating .8s linear infinite;
+  -o-animation: rotating .8s linear infinite;
+  animation: rotating .8s linear infinite;
+}
+.hollow-dots-spinner{
+  padding-left: 105px;
+  width: 100%;
+}
+.modal-body .hollow-dots-spinner {
+  padding-left: 456px;
+}
+
+.deleterow{
+  background: linear-gradient(92deg, #eac0c0,#e68282);
+
+  -webkit-animation: deletegradient 1s ease infinite;
+  -moz-animation: deletegradient 1s ease infinite;
+  animation: deletegradient 1s ease infinite;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
+
+@-webkit-keyframes deletegradient {
+
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+@-moz-keyframes deletegradient {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+@keyframes deletegradient {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+
+
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+  from {
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+
+body{
+  background-color:#f4f3ef ;
+  font-family: tahoma;
+}
+
+@media (max-width: 767px) {
+  .table-responsive .dropdown-menu,
+  .table-responsive .dropdown-toggle {
+    position: static !important;
+  }
+
+}
+
+@media (min-width: 768px) {
+  .table-responsive {
+    overflow: visible;
+  }
+}
+
+.breadmin{
+  margin-top: 82px;
+  margin-left: 18px;
+}
+
+.certificatetypeimg{
+  width: 50px;
+}
+
+
+
+.ReactTable .rt-th:last-child, .ReactTable .rt-td:last-child {
+  overflow: visible;
+}
+.ReactTable .rt-thead .rt-th:last-child{
+  text-align:left;
+}
+
+.centrino{
+  text-align: center;
+}
+@media (min-width: 576px){
+  .modal-dialog {
+    max-width: 1100px;
+    margin: 1.75rem auto;
+  }
+}
+
+
+.modal-footer .btn-link{
+  width: auto;
+}
+
+.breadcrumb-item.active {
+  text-transform: capitalize;
+}
+
+.wraptext{
+  word-wrap: break-word;
+  white-space: normal !important;
+}
+.bold{
+  font-weight: bold;
+}
+
+.legend{
+  text-align: left;
+  margin-top: 20px;
+}
+.legend ul{
+  list-style: none;
+}
+.pin{
+  width: 20px;
+}
+
+.col-form-label{
+  text-transform: capitalize;
+}
+
+.content form {
+  direction: rtl;
+}
+.english  form{
+  direction: ltr !important;
+}
+.english  h4{
+  text-align: left;
+}
+
+.form-horizontal .col-form-label, .form-horizontal .label-on-right{
+  color: #3c3c3c;
+  text-align: left;
+  font-family: "tahoma";
+  font-size: 13px;
+}
+
+h4,.table > thead > tr > th{
+  text-align: right;
+}
+
+
+.m-signature-pad--body{
+  text-align: center;
+}
+canvas{
+  border: 1px solid;
+}
+
+.breadcrumb{
+  display: none;
+}
+.table th, .table td , .table tr{
+  text-align: right;
+}
+.inlinechecbox{
+
+}
+
+.inlinechecbox .form-check:first-child {
+   margin-top: 0 !important;
+}
+.inlinechecbox .form-check{
+  float: right;
+  padding: 6px;
+}
+
+.rectanglered{
+  background: red;
+  width: 40px;
+  height: 40px;
+}
+.rectangleorange{
+  background: orange;
+  width: 40px;
+  height: 40px;
+}
+.rectanglegreen{
+  background: green;
+  width: 40px;
+  height: 40px;
+}
+
+.yellowgreen , .rectangleyellow{
+  background: yellow;
+  width: 40px;
+  height: 40px;
+}
+.resizeselect .react-select .react-select__control .react-select__indicators{
+  width: 25px;
+}
+
+.react-select__control{
+  overflow: hidden !important;
+}
+
+.imgsponser{
+  width: 130px;
+}
+
+.ReactTable .rt-thead .rt-resizable-header-content{
+  text-transform: capitalize;
+}
+.multiimg{
+  width: 100px;
+  height: 100px;
+}
+
+.multiimgbtn{
+  position: relative;
+  left: -58px;
+  top: 31px;
+}
+
+
+@media print {
+
+  /* visible when printed */
+  .print {
+    display: block;
+  }
+
+  header, footer, aside, nav, form, iframe, .menu, .hero, .adslot, .noprint, button {
+    display: none;
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  .main-panel {
+    width: 100%;
+  }
+}
+
+
+.wrapmin{
+  inline-size: 150px;
+  overflow: scroll !important;
+  white-space: normal !important;
+  color: red;
+}
+
+
+.langar .main-panel {
+  float: left;
+}
+
+.langar .sidebar, .langar.off-canvas-sidebar {
+  right: 0;
+  left: auto;
+}
