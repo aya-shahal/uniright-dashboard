@@ -1,5 +1,6 @@
 {
   "name": "hereme-dashboard-pro",
+  "node": "16.x",
   "version": "1.0.0",
   "description": "dashboard",
   "main": "index.js",
