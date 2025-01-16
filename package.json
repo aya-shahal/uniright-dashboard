@@ -1,6 +1,5 @@
 {
   "name": "hereme-dashboard-pro",
-  "node": "16.x",
   "version": "1.0.0",
   "description": "dashboard",
   "main": "index.js",
@@ -14,6 +13,11 @@
     "compile-sass": "node-sass src/assets/scss/paper-dashboard.scss src/assets/scss/paper-dashboard.css",
     "update": "ncu -u && npm i"
   },
+  "engines": {
+  "node": "16.x",
+  "npm": "8.x"
+},
+
   "keywords": [
     "react",
     "admin",
