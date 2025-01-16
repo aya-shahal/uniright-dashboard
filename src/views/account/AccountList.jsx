@@ -22,8 +22,8 @@ import '../../../node_modules/react-simple-tree-menu/dist/main.css';
 import CoreEngine from "../../core/CoreEngine";
 import RequestEngine from "../../core/RequestEngine"
 import {connect} from "react-redux";
-import logo from "assets/img/folder.png";
-import file from "assets/img/file.png";
+import logo from "../../assets/img/folder.png";
+import file from "../../assets/img/file.png";
 import loadingAction from "../../core/redux/actions/loadingAction";
 import ReactTable from "react-table";
 import Constants from "../../core/Constants";

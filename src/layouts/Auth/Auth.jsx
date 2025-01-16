@@ -3,7 +3,7 @@ import React from "react";
 
 import { Route, Switch } from "react-router-dom";
 
-import Footer from "components/Footer/Footer.jsx";
+import Footer from "../../components/Footer/Footer.jsx";
 
 import routes from "../../routes.js";
 

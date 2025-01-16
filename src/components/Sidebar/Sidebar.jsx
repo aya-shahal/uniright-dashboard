@@ -4,7 +4,7 @@ import { Nav, Collapse } from "reactstrap";
 // javascript plugin used to create scrollbars on windows
 import PerfectScrollbar from "perfect-scrollbar";
 
-import logo from "assets/img/logo.jpeg";
+import logo from "../../assets/img/logo.jpeg";
 
 let ps;
 

@@ -4,13 +4,13 @@ import { createBrowserHistory } from "history";
 import { Router, Route, Switch, Redirect } from "react-router-dom";
 import { Provider } from "react-redux";
 import { ReactNotifications } from 'react-notifications-component'
-import configureStore from "core/redux/store";
-import AuthLayout from "layouts/Auth/Auth.jsx";
-import AdminLayout from "layouts/Admin/Admin.jsx";
+import configureStore from "./core/redux/store";
+import AuthLayout from "./layouts/Auth/Auth.jsx";
+import AdminLayout from "./layouts/Admin/Admin.jsx";
 import 'react-notifications-component/dist/theme.css'
 import "bootstrap/dist/css/bootstrap.css";
-import "assets/scss/paper-dashboard.scss";
-import "assets/demo/demo.css";
+import "./assets/scss/paper-dashboard.scss";
+import "./assets/demo/demo.css";
 
 const history = createBrowserHistory();
 

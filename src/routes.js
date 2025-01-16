@@ -1,6 +1,6 @@
 import React from "react";
 
-import Login from "views/login/Login.jsx";
+import Login from "./views/login/Login";
 import UserList from "./views/user/UserList";
 import RowUserAddUpdate from "./views/user/RowUserAddUpdate";
 import EditSettings from "./views/settings/EditSettings";

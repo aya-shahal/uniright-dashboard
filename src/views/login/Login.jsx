@@ -16,7 +16,7 @@ import {
   Col,
   Row
 } from "reactstrap";
-import blacklogo from "assets/img/logo.jpeg";
+import blacklogo from "../../assets/img/logo.jpeg";
 import RequestEngine from "../../core/RequestEngine";
 import CoreEngine from "../../core/CoreEngine";
 import { HollowDotsSpinner } from 'react-epic-spinners'
@@ -157,7 +157,7 @@ class Login extends CoreEngine {
         <div
           className="full-page-background"
           style={{
-            backgroundImage: `url(${require("assets/img/bg/david-marcu.jpg")})`
+            backgroundImage: `url(${require("../../assets/img/bg/david-marcu.jpg")})`
             //  backgroundImage: `url(${require("assets/img/bg/why-was-bitcoin-invented-1024x640.jpg")})`
 
           }}
